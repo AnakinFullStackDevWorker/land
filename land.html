@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="나중에 css 폰트류">
+
+
+    <link
+    href="https://unpkg.com/sanitize.css"
+    rel="stylesheet"
+  />
+
+
+    <style>
+
+
+/* 모바일 기기에 대한 스타일 */
+/* 일반적으로 모든 기기의 기본적인 스타일을 정의합니다. */
+
+/* 모든 요소에 대한 기본 설정 */
+* {
+    
+    box-sizing: border-box; /* 요소의 너비와 높이가 border와 padding을 포함하도록 설정 */
+    margin: 0;
+    padding: 0;
+}
+
+/* body 요소 설정 */
+body {
+    font-family: Arial, sans-serif; /* 기본 글꼴 설정 */
+    background-color: #F2E9D8; /* 배경색 설정 */
+    color: #333; /* 기본 텍스트 색상 설정 */
+    margin: 0; /* body의 기본 margin 제거 */
+    padding: 0;
+}
+
+
+
+.container {
+    max-width: 1920px; /* 전체 화면 최대 넓이 설정 */
+    margin: 0 auto; /* 가운데 정렬을 위해 auto로 설정 */
+    padding: 20px; /* 내용과 테두리 사이 여백 설정 */
+    box-sizing: border-box; /* padding과 border를 포함한 크기 설정 */
+}
+
+/* 예시로 섹션 스타일링 */
+.section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.btn1 {  
+    font-size: ; 16px;
+    font-weight: 700;
+        width: 140px;
+        height: 50px;
+        border-radius: 25% 25% 25% 25%/ 50% 50% 50% 50% ; 
+        top: 0;
+        left: 0;
+        transform: translate(656px,-5px); /* X축으로 50px, Y축으로 20px 이동 */
+
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+    
+        border-color: #ffffff;
+        color:#ffffff;
+        background-color: #D97652;
+}
+
+.btn2 {  
+    font-size: ; 16px;
+    font-weight: 700;
+        width: 140px;
+        height: 50px;
+        border-radius: 25% 25% 25% 25%/ 50% 50% 50% 50% ; 
+        transform: translate(-200px,100px); /* X축으로 50px, Y축으로 20px 이동 */
+
+        top: 0;
+        left: 0;
+        align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+
+        border-color: #ffffff;
+        color:#ffffff;
+        background-color: #D97652;
+}
+
+
+
+
+
+
+.logo {
+    top: 0;
+    left: 0;
+    transform: translate(20%,20%); /* X축으로 50px, Y축으로 20px 이동 */
+
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+
+    padding: auto;
+    padding-top: 0%;
+    padding-bottom: 0%;
+                        
+                    }
+
+.item2 {  
+    top: 0;
+    left: 0;
+    transform: translate(656px,0%); /* X축으로 50px, Y축으로 20px 이동 */
+
+
+}
+                    
+                    
+
+.flex  {
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    background-color: #F2E9D8; /* 배경색 설정 */
+}
+
+
+
+.one {
+    display: inline-flex; 
+    
+    width: 100%;
+    background-color:  #F2E9D8;
+}
+
+.two { 
+    display: inline-flex; 
+    float: left;
+    width: 100%;
+    background-color:  #ffffff;
+}
+
+
+.three { 
+    display: flex;
+    width: 100%;
+    background-color:  #ffffff;
+}
+
+
+.four { 
+    display: flex;
+    width: 100%; 
+    background-color:  #ffffff;
+}
+
+
+
+
+
+
+
+.six { 
+    display: flex;
+    overflow: hidden;
+    width: 100%; 
+    background-color:  #ffffff;
+}
+
+
+
+
+.box-cat {
+    display: flex;
+    width: 415px;
+    height: 890px;
+    background-color:  #F2E9D8;
+
+}
+
+.cat2 {
+    width: 660px;
+    height: 390px;
+    display: flex;
+    float: left;
+
+    background-color:  #ffffff;
+}
+
+.cat3 {
+    display: flex;
+ 
+
+    width: 1920px;
+    height: 340px;
+    background-color:  #ffffff;
+}
+
+
+/* 미디어 쿼리를 사용해 모바일에서 화면을 조정 */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px; /* 모바일에서는 좀 더 작은 padding으로 설정 */
+    }
+    .section {
+        padding: 10px;
+    }
+}
+
+</style>
+</head>
+
+
+
+<body>
+
+
+
+<section>
+
+        <nav>
+        <img class="logo" src="./img/logo.svg" alt="">      
+        <img class="item2" src="./img/Home.png" alt="">
+        <img class="item2" src="./img/About.png" alt="">
+        <img class="item2" src="./img/Support.png" alt="">
+        
+        <button class="btn1">Download</button>
+        
+    </nav>
+</section>
+
+            <div class="one">    
+            <div>Lorem Ipsum is simply
+                dummy text of the printing and</div>
+                
+                <div>Lorem Ipsum is simply dummy text of the printing and
+                    <button class="btn2">Download</button>
+                    typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text
+                    ever since the 1500s, when an unknown</div>
+                    
+                    <img class="box-cat" src="./img/box-cat.png">
+            </div>
+
+</section>
+
+
+
+
+
+<section>
+    <div class="two">
+        <img class="cat2" src="./img/img_4.jpg" width="100%" height="390px">
+            
+        <div>Lorem Ipsum is simply
+            dummy text of the printing and</div>
+            
+            <div>Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text
+                ever since the 1500s, when an unknown</div>
+                
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<section>
+    <div class="three">
+            
+        <div>Lorem Ipsum is simply
+            dummy text of the printing and</div>
+            
+            <div> Ipsum has been the industry's standard dummy text
+                ever since the 1500s, when an unknown</div> 
+    </div>
+</section>
+
+
+
+
+
+<section>
+    <div class="four">
+            
+        <div>Lorem Ipsum is simply
+            dummy text of the printing and</div>
+            
+            <div> Ipsum has been the industry's standard dummy text
+                ever since the 1500s, when an unknown</div> 
+    </div>
+</section>
+
+
+
+<!-- 
+
+
+<section>
+    <div class="five">
+            <div class="slide"><img src="./img/img_1.jpg" alt="이미지 1"></div>
+            <div class="slide"><img src="./img/img_2.jpg" alt="이미지 2"></div>
+            <div class="slide"><img src="./img/img_3.jpg" alt="이미지 3"></div>
+        </div>
+</section>
+
+<section> -->
+    <div class="six">
+<img class="cat3" src="./img/img_5.jpg">
+</section>
+
+
+
+
+</body>
+</html>
