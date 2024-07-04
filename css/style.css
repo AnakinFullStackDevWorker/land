@@ -1,0 +1,258 @@
+
+
+/* 모바일 기기에 대한 스타일 */
+/* 일반적으로 모든 기기의 기본적인 스타일을 정의합니다. */
+
+/* 모든 요소에 대한 기본 설정 */
+
+
+* {
+    display: block;
+    perspective: i
+    perspective-origin: 0%
+    max-width: 1920px;
+    width: 1920px;
+    box-sizing: border-box; /* 요소의 너비와 높이가 border와 padding을 포함하도록 설정 */
+}    
+
+/* body 요소 설정 */
+.body {
+    display: block;
+    font-family: Arial, sans-serif; /* 기본 글꼴 설정 */
+    background-color: #222222; /* 배경색 설정 */
+    color: #333; /* 기본 텍스트 색상 설정 */
+    margin: 0; /* body의 기본 margin 제거 */
+    padding: 0;
+}    
+
+
+
+/* 예시로 섹션 스타일링
+.section {
+    } */    
+    
+    
+    .btn1 {  
+        font-size: ; 16px;
+        width: 140px;
+        height: 50px;
+        border-radius: 25% 25% 25% 25%/ 50% 50% 50% 50% ; 
+        
+        
+        border-color: #F2E9D8;
+        color:#ffffff;
+        background-color: #D97652;
+    }            
+    
+    .btn2 {  
+        font-size: ; 16px;
+        width: 140px;
+        height: 50px;
+        border-radius: 25% 25% 25% 25%/ 50% 50% 50% 50% ; 
+        
+        
+        border-color: #F2E9D8;
+        color:#ffffff;
+        background-color: #D97652;
+    }        
+    
+    
+    
+    
+    
+    
+    .logo {
+        
+    }
+    
+    
+    .flex  {                
+        display: flex; /* flex container로 설정 */
+        position: relative;
+        z-index: 3;
+    }    
+    
+    
+    .zero {
+        position: relative;
+        
+    flex-direction: column;
+        
+    }
+    
+    .item1 {
+        position: relative;
+        
+    flex-direction: column;
+        background-color:  #F2E9D8;
+    }
+    
+    
+    .section{
+        
+    flex-direction: column;
+        position: relative;
+        
+        
+    }    
+    
+    .one {
+        display: flex;
+        position: relative;
+        width: 1920px;
+        height: 102px;
+        background-color:  #F2E9D8;
+    }
+    
+    .two {
+        display: flex;  
+        position: relative;
+        flex-direction: column;
+
+        text-align: center;
+        text-justify: center;
+    
+        float: right;
+        width: 1920px;
+        height: 902px;
+    }
+    
+    
+    
+    
+    
+    .three { 
+    flex-direction: column;
+
+        display: flex;
+        position: relative;
+        float: left;
+        background-color:  #ffffff;
+    }
+    
+    .threefour { 
+        display: flex;
+        position: relative;
+        float: right;
+        width: 660px;
+        height: 390px;
+        
+        background-color:  #ffffff;
+    }
+    
+    
+    .four { 
+        display: flex;
+        position: relative;
+        float: right;
+        background-color:  #ffffff;
+        z-index: 3;
+    }
+    
+    
+    .item {
+        display: flex;
+        position: relative;
+        float: right;
+        background-color:   #F2E9D8;
+        border: 1px  solid black;
+        
+        
+    }
+    
+    
+    
+    .six { 
+        display: flex;
+        position: relative;
+        float: right;
+        overflow: hidden;
+        background-color:  #ffffff;
+        z-index: 3;
+    }
+
+
+    .seven {
+    display: flex;
+    position: absolute;
+    transform: translate( 300px, -750px );
+
+    width: 1280px;
+    height: 300px;
+    font-size: 120px;
+    border-radius: 10% 0% 10% 0%/ 0% 10% 0% 10% ; 
+
+    text-align: center;
+    text-justify: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    
+    flex-direction: column;
+    z-index: -3;
+
+    border-color: #F2E9D8;
+    color:#ffffff;
+    background-color:  #263140;
+    }
+    
+    
+    .container {
+        display: flex;
+        position: relative;
+        background-color: aliceblue;
+        flex-direction: column;
+    }
+    
+    
+    
+    
+    .box-cat {
+        display: flex;
+        position: relative;
+        float: right;
+        overflow: hidden;
+        height: 890px;
+        width: 415px;
+        
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .cat {
+        display: flex;
+        position: relative;
+        float: left;
+        width: 660px;
+        height: 390px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    
+    .cat2 {
+        position: relative;
+    }
+    
+    .cat3 {
+        position: relative;
+        overflow: hidden;
+        max-width: 1920px;
+        width: 1920px;
+        height: 600px;
+        background-color:  #ffffff;
+    }
+    
+    
+    /* 미디어 쿼리를 사용해 모바일에서 화면을 조정 */
+    
+    @media (max-width: 912px){
+        *{
+            max-width: 1920px;
+            max-height: 100%;    
+        }
+    }
+    
