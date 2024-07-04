@@ -1,10 +1,7 @@
 
 
 * {
-  max-width: 1920px;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
   }
   
   body {
@@ -13,19 +10,20 @@
   }
   
   .carousel-container {
-    display: flex;
+    overflow: hidden;
+    overflow:scroll /* Hide vertical scrollbar */
     width: 378px;
     height: 378px;
   }
   
   .carousel-track {
     display: flex; /* Arrange items in a row */
-    animation: scroll 3s normal infinite steps(180) ;
+    animation: scroll 3s linear infinite;
      /* Adjust duration as needed */
   }
   
   .carousel-item {
-    min-width: 1920px; /* Each item takes full width */
+    overflow: hidden;
     width:378px; 
     height:378px;
     flex: 0 0 auto; /* Prevent items from shrinking */
@@ -33,7 +31,7 @@
   }
   
   .carousel-item img {
-    background-color: blueviolet;
+    margin-left: 30px;
     max-width: 100%;
     max-height: 100%;
     
