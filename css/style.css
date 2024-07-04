@@ -10,7 +10,6 @@
     display: block;
     perspective: i
     perspective-origin: 0%
-    max-width: 1920px;
     width: 1920px;
     box-sizing: border-box; /* 요소의 너비와 높이가 border와 padding을 포함하도록 설정 */
 }    
@@ -27,7 +26,41 @@
 
 
 
+
+.item {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    background-color:   #F2E9D8;
+    border: 1px  solid black;
+    
+    .item1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        margin-left: 20px;
+        width: 200px;
+        height: 40px;
+        position: relative;
+        
+    flex-direction: column;
+        background-color:  #F2E9D8;
+    }
+    
+    
+.item3 {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    background-color:   #F2E9D8;
+    border: 1px  solid black;
+    
+}
+
 /* 예시로 섹션 스타일링
+
 .section {
     } */    
     
@@ -38,11 +71,9 @@
         height: 50px;
         border-radius: 25% 25% 25% 25%/ 50% 50% 50% 50% ; 
         
-        
         border-color: #F2E9D8;
         color:#ffffff;
-        background-color: #D97652;
-    }            
+        background-color: #D97652;}            
     
     .btn2 {  
         font-size: ; 16px;
@@ -62,7 +93,8 @@
     
     
     .logo {
-        
+    margin-left:  320px;
+    margin-right: 654px;
     }
     
     
@@ -73,20 +105,18 @@
     }    
     
     
-    .zero {
+    /* .zero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        width: 200px;
+        height: 100px;
         position: relative;
+        flex-direction: column;
         
-    flex-direction: column;
-        
-    }
-    
-    .item1 {
-        position: relative;
-        
-    flex-direction: column;
-        background-color:  #F2E9D8;
-    }
-    
+    } */
     
     .section{
         
@@ -106,6 +136,7 @@
     
     .two {
         display: flex;  
+        float:left;
         position: relative;
         flex-direction: column;
 
@@ -148,14 +179,6 @@
         background-color:  #ffffff;
         z-index: 3;
     }
-    
-    
-    .item {
-        display: flex;
-        position: relative;
-        float: right;
-        background-color:   #F2E9D8;
-        border: 1px  solid black;
         
         
     }
@@ -166,16 +189,19 @@
         display: flex;
         position: relative;
         float: right;
+        margin: 0;
+        padding: 0;
+        transform: translate( 0px, -550px );
         overflow: hidden;
         background-color:  #ffffff;
-        z-index: 3;
+        z-index: -2;
     }
 
 
     .seven {
     display: flex;
     position: absolute;
-    transform: translate( 300px, -750px );
+    transform: translate( 300px, 1525px );
 
     width: 1280px;
     height: 300px;
@@ -190,14 +216,14 @@
     justify-items: center;
     
     flex-direction: column;
-    z-index: -3;
+    z-index: 3;
 
     border-color: #F2E9D8;
     color:#ffffff;
     background-color:  #263140;
-    }
-    
-    
+}
+
+
     .container {
         display: flex;
         position: relative;
@@ -205,7 +231,13 @@
         flex-direction: column;
     }
     
-    
+    .div {
+        display: flex;
+        position: relative;
+        margin: auto;
+        padding: auto;
+        transform: translate( 0px, -850px );
+    }
     
     
     .box-cat {
@@ -242,7 +274,7 @@
         overflow: hidden;
         max-width: 1920px;
         width: 1920px;
-        height: 600px;
+        transform: translate( 0px, 850px );
         background-color:  #ffffff;
     }
     
